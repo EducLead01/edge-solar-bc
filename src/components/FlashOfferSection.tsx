@@ -4,8 +4,6 @@ import { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 import type { Swiper as SwiperType } from "swiper";
-import "swiper/css";
-import "swiper/css/effect-fade";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 function getTimeLeft(target: Date) {
@@ -21,8 +19,10 @@ function getTimeLeft(target: Date) {
 const TARGET = new Date(Date.now() + 4 * 3_600_000);
 
 const productImages = [
-  { src: "/edge-solar-bc/images/476145.webp",     alt: "Ar-Condicionado Split" },
+  { src: "/edge-solar-bc/images/476145.webp",      alt: "Ar-Condicionado Split" },
   { src: "/edge-solar-bc/images/Residencial.webp", alt: "Ar-Condicionado Residencial" },
+  { src: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=80", alt: "Ar-Condicionado Inverter" },
+  { src: "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?w=800&q=80", alt: "Ar-Condicionado Cassete" },
 ];
 
 export function FlashOfferSection() {
