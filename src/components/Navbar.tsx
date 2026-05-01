@@ -27,15 +27,16 @@ export function Navbar() {
         scrolled ? "mt-2" : "mt-4"
       }`}
     >
-      <div className="container flex items-center justify-between rounded-lg px-5 py-3 lg:px-8 lg:py-4 backdrop-blur-lg bg-teal-800/90">
+      <div className="container flex items-center justify-between rounded-lg px-5 py-3 lg:px-8 lg:py-4 backdrop-blur-lg bg-[#0A0E1A]/90">
 
         {/* Logo */}
-        <Link href="/">
-          <img
-            src="/frenergy-logo-white.svg"
-            alt="EDGE Solar"
-            className="w-24 lg:w-32"
-          />
+        <Link href="/" className="flex flex-col items-center leading-none hover:opacity-75 transition-opacity shrink-0">
+          <span style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 22, letterSpacing: "-0.05em", lineHeight: 1 }}>
+            EDGE
+          </span>
+          <span style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 400, fontSize: 7, letterSpacing: "0.6em", paddingLeft: "0.6em", textTransform: "uppercase" }}>
+            Engenharia
+          </span>
         </Link>
 
         {/* Desktop nav */}
@@ -44,7 +45,7 @@ export function Navbar() {
             <a
               key={link.label}
               href={link.href}
-              className="hover:text-amber-400 transition-colors"
+              className="hover:text-orange-400 transition-colors"
             >
               {link.label}
             </a>
@@ -55,9 +56,9 @@ export function Navbar() {
         <div className="flex items-center gap-4">
           <a
             href="#contato"
-            className="hidden lg:block border border-white text-white font-bold uppercase text-xs lg:text-sm px-4 py-2 hover:bg-white hover:text-teal-900 transition-colors"
+            className="hidden lg:block border border-white text-white font-bold uppercase text-xs lg:text-sm px-4 py-2 hover:bg-white hover:text-gray-900 transition-colors"
           >
-            QUERO ECONOMIZAR
+            FALAR NO WHATSAPP
           </a>
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
@@ -71,14 +72,14 @@ export function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="absolute top-full left-0 right-0 mt-2 bg-teal-900 rounded-xl overflow-hidden shadow-2xl">
+        <div className="absolute top-full left-0 right-0 mt-2 bg-[#0A0E1A] rounded-xl overflow-hidden shadow-2xl">
           <div className="flex flex-col py-2">
             {navLinks.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className="px-6 py-3.5 text-white font-bold text-sm uppercase border-b border-white/10 hover:bg-teal-800 transition-colors"
+                className="px-6 py-3.5 text-white font-bold text-sm uppercase border-b border-white/10 hover:bg-white/10 transition-colors"
               >
                 {link.label}
               </a>
