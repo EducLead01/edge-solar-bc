@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import {
   ChevronDown,
   Utensils,
@@ -54,13 +55,13 @@ export function Navbar() {
       <div className="container flex items-center justify-between rounded-lg px-5 py-3 lg:px-8 lg:py-4 backdrop-blur-lg bg-teal-800/90">
 
         {/* Logo */}
-        <a href="/">
+        <Link href="/">
           <img
             src="/frenergy-logo-white.svg"
             alt="Frenergy Soluções"
             className="w-24 lg:w-32"
           />
-        </a>
+        </Link>
 
         {/* Desktop nav */}
         <div className="hidden font-bold uppercase lg:flex lg:items-center lg:space-x-4 xl:space-x-6 text-white text-sm">
