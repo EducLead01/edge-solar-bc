@@ -1,6 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, EffectFade } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/effect-fade";
 
 function getTimeLeft(target: Date) {
   const diff = target.getTime() - Date.now();
@@ -12,7 +16,12 @@ function getTimeLeft(target: Date) {
   return { h: pad(h), m: pad(m), s: pad(s) };
 }
 
-const TARGET = new Date(Date.now() + 4 * 3_600_000); // 4h a partir do carregamento
+const TARGET = new Date(Date.now() + 4 * 3_600_000);
+
+const productImages = [
+  { src: "/edge-solar-bc/images/476145.webp",    alt: "Ar-Condicionado Split" },
+  { src: "/edge-solar-bc/images/Residencial.webp", alt: "Ar-Condicionado Residencial" },
+];
 
 export function FlashOfferSection() {
   const [time, setTime] = useState(getTimeLeft(TARGET));
@@ -60,13 +69,25 @@ export function FlashOfferSection() {
             </a>
           </div>
 
-          {/* Right — product image */}
-          <div className="flex-1 flex items-center justify-center rounded-xl overflow-hidden bg-gradient-to-br from-[#1a1a2e] to-[#0A0E1A] min-h-[280px] w-full lg:max-w-[520px]">
-            <img
-              src="/edge-solar-bc/images/476145.webp"
-              alt="Ar-Condicionado Split"
-              className="w-full h-full object-cover"
-            />
+          {/* Right — product carousel */}
+          <div className="flex-1 rounded-xl overflow-hidden bg-gradient-to-br from-[#1a1a2e] to-[#0A0E1A] min-h-[280px] w-full lg:max-w-[520px]">
+            <Swiper
+              modules={[Autoplay, EffectFade]}
+              effect="fade"
+              autoplay={{ delay: 3000, disableOnInteraction: false }}
+              loop
+              className="w-full h-full min-h-[280px]"
+            >
+              {productImages.map((img, i) => (
+                <SwiperSlide key={i}>
+                  <img
+                    src={img.src}
+                    alt={img.alt}
+                    className="w-full h-full object-cover min-h-[280px]"
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
 
         </div>
