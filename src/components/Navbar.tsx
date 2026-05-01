@@ -30,7 +30,7 @@ export function Navbar() {
       <div className="container flex items-center justify-between rounded-lg px-5 py-3 lg:px-8 lg:py-4 backdrop-blur-lg bg-[#0A0E1A]/90">
 
         {/* Logo */}
-        <Link href="/" className="flex flex-col items-center leading-none hover:opacity-75 transition-opacity shrink-0">
+        <Link href="/" className="flex flex-col items-center leading-none hover:opacity-75 transition-opacity shrink-0 text-white">
           <span style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 800, fontSize: 22, letterSpacing: "-0.05em", lineHeight: 1 }}>
             EDGE
           </span>
