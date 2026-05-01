@@ -54,9 +54,9 @@ export function FlashOfferSection() {
             {/* CTA */}
             <a
               href="https://wa.me/seunumero"
-              className="mt-2 w-full max-w-xs bg-[#0A0E1A] hover:bg-[#FF6B35] text-white font-black uppercase tracking-widest text-sm px-8 py-4 text-center transition-colors duration-200"
+              className="mt-2 w-full max-w-xs bg-[#25D366] hover:bg-[#1ebe5d] text-white font-black uppercase tracking-widest text-sm px-8 py-4 text-center transition-colors duration-200"
             >
-              Finalizar compra no WhatsApp
+              Comprar no WhatsApp
             </a>
           </div>
 
