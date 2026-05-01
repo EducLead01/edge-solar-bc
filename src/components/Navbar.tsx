@@ -2,43 +2,18 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import {
-  ChevronDown,
-  Utensils,
-  Fuel,
-  Wheat,
-  GraduationCap,
-  Wrench,
-  Building2,
-  Landmark,
-  Warehouse,
-  Menu,
-  X,
-} from "lucide-react";
-
-const segments = [
-  { label: "Bares e Restaurantes",   icon: Utensils },
-  { label: "Postos de Combustíveis", icon: Fuel },
-  { label: "Usinas em Fazendas",     icon: Wheat },
-  { label: "Escolas e Faculdades",   icon: GraduationCap },
-  { label: "Oficinas Mecânicas",     icon: Wrench },
-  { label: "Condomínios",            icon: Building2 },
-  { label: "Templos e Igrejas",      icon: Landmark },
-  { label: "Galpões",                icon: Warehouse },
-];
+import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { label: "SERVIÇOS",          href: "#servicos" },
-  { label: "COMO FUNCIONA",     href: "#como-funciona" },
-  { label: "GESTÃO DE ENERGIA", href: "#gestao-de-energia" },
-  { label: "CASES",             href: "#cases" },
-  { label: "CALCULADORA",       href: "#calculadora" },
+  { label: "Climatização",       href: "#climatizacao" },
+  { label: "Energia Solar",      href: "#energia-solar" },
+  { label: "Treinamentos",       href: "#treinamentos" },
+  { label: "Engenharia Modular", href: "#engenharia-modular" },
 ];
 
 export function Navbar() {
   const [scrolled, setScrolled]     = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [segOpen, setSegOpen]       = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
@@ -58,52 +33,14 @@ export function Navbar() {
         <Link href="/">
           <img
             src="/frenergy-logo-white.svg"
-            alt="Frenergy Soluções"
+            alt="EDGE Solar"
             className="w-24 lg:w-32"
           />
         </Link>
 
         {/* Desktop nav */}
         <div className="hidden font-bold uppercase lg:flex lg:items-center lg:space-x-4 xl:space-x-6 text-white text-sm">
-          {navLinks.slice(0, 2).map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              className="hover:text-amber-400 transition-colors"
-            >
-              {link.label}
-            </a>
-          ))}
-
-          {/* SEGMENTOS dropdown */}
-          <div className="relative group">
-            <button className="flex items-center gap-1.5 hover:text-amber-400 transition-colors">
-              SEGMENTOS
-              <ChevronDown className="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180" />
-            </button>
-
-            <div className="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[460px] rounded-xl shadow-2xl overflow-hidden opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 bg-teal-700">
-              <div className="grid grid-cols-2">
-                {segments.map((seg, i) => {
-                  const Icon = seg.icon;
-                  return (
-                    <a
-                      key={seg.label}
-                      href="#segmentos"
-                      className={`flex items-center gap-3 px-5 py-3.5 text-white text-[0.78rem] font-medium border-b border-white/10 hover:bg-white/15 transition-colors normal-case tracking-normal ${
-                        i % 2 === 0 ? "border-r border-white/10" : ""
-                      }`}
-                    >
-                      <Icon className="w-5 h-5 text-amber-400 flex-shrink-0" />
-                      <span>{seg.label}</span>
-                    </a>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
-
-          {navLinks.slice(2).map((link) => (
+          {navLinks.map((link) => (
             <a
               key={link.label}
               href={link.href}
@@ -136,7 +73,7 @@ export function Navbar() {
       {mobileOpen && (
         <div className="absolute top-full left-0 right-0 mt-2 bg-teal-900 rounded-xl overflow-hidden shadow-2xl">
           <div className="flex flex-col py-2">
-            {navLinks.slice(0, 2).map((link) => (
+            {navLinks.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
@@ -146,46 +83,6 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-
-            {/* Mobile segmentos accordion */}
-            <button
-              onClick={() => setSegOpen(!segOpen)}
-              className="flex items-center justify-between px-6 py-3.5 text-white font-bold text-sm uppercase border-b border-white/10 hover:bg-teal-800 transition-colors w-full"
-            >
-              SEGMENTOS
-              <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${segOpen ? "rotate-180" : ""}`} />
-            </button>
-
-            {segOpen && (
-              <div className="grid grid-cols-2 bg-teal-800/50 border-b border-white/10">
-                {segments.map((seg) => {
-                  const Icon = seg.icon;
-                  return (
-                    <a
-                      key={seg.label}
-                      href="#segmentos"
-                      onClick={() => setMobileOpen(false)}
-                      className="flex items-center gap-2 px-4 py-3 text-white/80 text-xs font-medium border-b border-white/10 hover:text-white transition-colors"
-                    >
-                      <Icon className="w-4 h-4 text-amber-400 flex-shrink-0" />
-                      <span>{seg.label}</span>
-                    </a>
-                  );
-                })}
-              </div>
-            )}
-
-            {navLinks.slice(2).map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                onClick={() => setMobileOpen(false)}
-                className="px-6 py-3.5 text-white font-bold text-sm uppercase border-b border-white/10 hover:bg-teal-800 transition-colors"
-              >
-                {link.label}
-              </a>
-            ))}
-
             <a
               href="#contato"
               onClick={() => setMobileOpen(false)}
