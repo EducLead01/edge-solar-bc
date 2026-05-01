@@ -72,9 +72,9 @@ export function FlashOfferSection() {
           {/* Right — product image */}
           <div className="flex-1 flex items-center justify-center rounded-xl overflow-hidden bg-gradient-to-br from-[#1a1a2e] to-[#0A0E1A] min-h-[280px] w-full lg:max-w-[520px]">
             <img
-              src="https://images.unsplash.com/photo-1625014618427-fbc980b974f5?w=800&q=80"
+              src="/edge-solar-bc/images/476145.webp"
               alt="Ar-Condicionado Split"
-              className="w-full h-full object-cover opacity-90 mix-blend-luminosity"
+              className="w-full h-full object-cover"
             />
           </div>
 
