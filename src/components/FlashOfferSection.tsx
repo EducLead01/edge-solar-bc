@@ -1,10 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
+import type { Swiper as SwiperType } from "swiper";
 import "swiper/css";
 import "swiper/css/effect-fade";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 function getTimeLeft(target: Date) {
   const diff = target.getTime() - Date.now();
@@ -19,12 +21,13 @@ function getTimeLeft(target: Date) {
 const TARGET = new Date(Date.now() + 4 * 3_600_000);
 
 const productImages = [
-  { src: "/edge-solar-bc/images/476145.webp",    alt: "Ar-Condicionado Split" },
+  { src: "/edge-solar-bc/images/476145.webp",     alt: "Ar-Condicionado Split" },
   { src: "/edge-solar-bc/images/Residencial.webp", alt: "Ar-Condicionado Residencial" },
 ];
 
 export function FlashOfferSection() {
   const [time, setTime] = useState(getTimeLeft(TARGET));
+  const swiperRef = useRef<SwiperType | null>(null);
 
   useEffect(() => {
     const id = setInterval(() => setTime(getTimeLeft(TARGET)), 1_000);
@@ -70,12 +73,13 @@ export function FlashOfferSection() {
           </div>
 
           {/* Right — product carousel */}
-          <div className="flex-1 rounded-xl overflow-hidden bg-gradient-to-br from-[#1a1a2e] to-[#0A0E1A] min-h-[280px] w-full lg:max-w-[520px]">
+          <div className="relative flex-1 rounded-xl overflow-hidden bg-gradient-to-br from-[#1a1a2e] to-[#0A0E1A] min-h-[280px] w-full lg:max-w-[520px]">
             <Swiper
               modules={[Autoplay, EffectFade]}
               effect="fade"
               autoplay={{ delay: 3000, disableOnInteraction: false }}
               loop
+              onSwiper={(s) => { swiperRef.current = s; }}
               className="w-full h-full min-h-[280px]"
             >
               {productImages.map((img, i) => (
@@ -88,6 +92,22 @@ export function FlashOfferSection() {
                 </SwiperSlide>
               ))}
             </Swiper>
+
+            {/* Custom arrows */}
+            <button
+              onClick={() => swiperRef.current?.slidePrev()}
+              className="absolute left-3 top-1/2 -translate-y-1/2 z-10 bg-[#FF6B35] hover:bg-[#0A0E1A] text-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition-colors duration-200"
+              aria-label="Anterior"
+            >
+              <ChevronLeft className="w-5 h-5" />
+            </button>
+            <button
+              onClick={() => swiperRef.current?.slideNext()}
+              className="absolute right-3 top-1/2 -translate-y-1/2 z-10 bg-[#FF6B35] hover:bg-[#0A0E1A] text-white rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition-colors duration-200"
+              aria-label="Próximo"
+            >
+              <ChevronRight className="w-5 h-5" />
+            </button>
           </div>
 
         </div>
