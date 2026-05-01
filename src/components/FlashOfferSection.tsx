@@ -29,16 +29,7 @@ export function FlashOfferSection() {
 
           {/* Left — offer info */}
           <div className="flex-1 flex flex-col items-start gap-4">
-            <p className="text-[#F5A623] font-black text-xl tracking-wide uppercase flex items-center gap-2">
-              ⚡ OFERTA RELÂMPAGO ⚡
-            </p>
-
-            <p className="text-gray-700 font-medium text-base leading-snug max-w-sm">
-              Ar-Condicionado Split Inverter — instalação completa inclusa
-            </p>
-
             <div>
-              <p className="text-gray-500 text-sm">Aproveite essa</p>
               <p className="text-[#0A0E1A] font-black text-5xl uppercase leading-none tracking-tight">
                 SUPER OFERTA
               </p>
@@ -65,7 +56,7 @@ export function FlashOfferSection() {
               href="https://wa.me/seunumero"
               className="mt-2 w-full max-w-xs bg-[#0A0E1A] hover:bg-[#FF6B35] text-white font-black uppercase tracking-widest text-sm px-8 py-4 text-center transition-colors duration-200"
             >
-              SOLICITAR ORÇAMENTO
+              Finalizar compra no WhatsApp
             </a>
           </div>
 
