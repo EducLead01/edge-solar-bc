@@ -161,11 +161,8 @@ export function ProductsSection() {
     <>
       <section className="bg-white px-6 pt-10 pb-24 relative">
         <div className="container mx-auto">
-          <h2 className="text-center text-2xl font-light tracking-widest uppercase mb-4" style={{ color: "#FF6B35" }}>
-            PRODUTOS
-          </h2>
           <h3 className="text-center text-4xl font-bold mb-12 max-w-4xl mx-auto uppercase" style={{ color: "#0A0E1A" }}>
-            Soluções em energia solar para cada necessidade
+            Climatização Residencial comercial e industrial
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
