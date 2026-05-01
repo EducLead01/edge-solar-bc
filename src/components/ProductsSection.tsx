@@ -156,15 +156,23 @@ function ProductCard({ product }: { product: Product }) {
   );
 }
 
+export function ClimatizacaoTitle() {
+  return (
+    <section className="bg-white px-6 pt-10 pb-6">
+      <div className="container mx-auto">
+        <h3 className="text-center text-4xl font-bold max-w-4xl mx-auto uppercase" style={{ color: "#0A0E1A" }}>
+          Climatização Residencial comercial e industrial
+        </h3>
+      </div>
+    </section>
+  );
+}
+
 export function ProductsSection() {
   return (
     <>
       <section className="bg-white px-6 pt-10 pb-24 relative">
         <div className="container mx-auto">
-          <h3 className="text-center text-4xl font-bold mb-12 max-w-4xl mx-auto uppercase" style={{ color: "#0A0E1A" }}>
-            Climatização Residencial comercial e industrial
-          </h3>
-
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {products.map((product) => (
               <ProductCard key={product.title} product={product} />
