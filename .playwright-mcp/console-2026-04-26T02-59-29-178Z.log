@@ -1,0 +1,42 @@
+[     480ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://grupobcenergia.com.br/undefined:0
+[     826ms] [WARNING] Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled and not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters @ https://grupobcenergia.com.br/_next/static/chunks/583-1c02ca1e841068bb.js:0
+[     838ms] Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at t5 (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:24670)
+    at iZ (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:120611)
+    at ia (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:95162)
+    at https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:91088
+    at https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:91095
+    at oZ (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:91200)
+    at MessagePort.T (https://grupobcenergia.com.br/_next/static/chunks/117-6d070162db7a603f.js:1:83988)
+[     840ms] Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at t5 (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:24670)
+    at iZ (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:120611)
+    at ia (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:95162)
+    at https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:91088
+    at https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:91095
+    at oZ (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:91200)
+    at MessagePort.T (https://grupobcenergia.com.br/_next/static/chunks/117-6d070162db7a603f.js:1:83988)
+[     840ms] Error: Minified React error #418; visit https://react.dev/errors/418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at t5 (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:24670)
+    at iZ (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:120535)
+    at ia (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:95162)
+    at https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:91088
+    at https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:91095
+    at oZ (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:91200)
+    at MessagePort.T (https://grupobcenergia.com.br/_next/static/chunks/117-6d070162db7a603f.js:1:83988)
+[     842ms] Error: Minified React error #423; visit https://react.dev/errors/423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at iZ (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:118349)
+    at ia (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:95162)
+    at https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:94984
+    at il (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:94991)
+    at oJ (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:92347)
+    at oZ (https://grupobcenergia.com.br/_next/static/chunks/fd9d1056-77efeba760ecf9a9.js:1:91766)
+    at MessagePort.T (https://grupobcenergia.com.br/_next/static/chunks/117-6d070162db7a603f.js:1:83988)
+[     883ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://grupobcenergia.com.br/undefined:0
+[     914ms] [LOG] LeadTracking initialized @ https://d335luupugsy2.cloudfront.net/js/loader-scripts/3f36aaee-f131-4207-a336-e111e60483a3-loader.js:0
+[     918ms] [LOG] TrafficSourceCookie initialized @ https://d335luupugsy2.cloudfront.net/js/loader-scripts/3f36aaee-f131-4207-a336-e111e60483a3-loader.js:0
+[    1379ms] [WARNING] [Meta pixel] 536122494110167 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more. @ https://connect.facebook.net/en_US/fbevents.js:181
+[    1381ms] [WARNING] [Meta Pixel] - Duplicate Pixel ID: 536122494110167. @ https://connect.facebook.net/en_US/fbevents.js:181
+[    2953ms] [LOG] FormIntegration; ver.1.3.3 initialized @ https://d335luupugsy2.cloudfront.net/js/loader-scripts/3f36aaee-f131-4207-a336-e111e60483a3-loader.js:0
+[    2991ms] [LOG] [RDTracker] initialized @ https://d335luupugsy2.cloudfront.net/js/loader-scripts/3f36aaee-f131-4207-a336-e111e60483a3-loader.js:0
+[    3339ms] [WARNING] Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled and not function properly. You need to add more slides (or make duplicates) or lower the values of slidesPerView and slidesPerGroup parameters @ https://grupobcenergia.com.br/_next/static/chunks/583-1c02ca1e841068bb.js:0

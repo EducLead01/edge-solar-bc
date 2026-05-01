@@ -1,0 +1,367 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner:
+      - navigation [ref=e3]:
+        - generic [ref=e4]:
+          - link "BC Energia" [ref=e5] [cursor=pointer]:
+            - /url: /
+            - img "BC Energia" [ref=e6]
+          - generic [ref=e7]:
+            - link "Produtos" [ref=e9] [cursor=pointer]:
+              - /url: /produtos
+            - link "Segmentos" [ref=e11] [cursor=pointer]:
+              - /url: "#"
+            - link "Sobre nós" [ref=e13] [cursor=pointer]:
+              - /url: "#"
+            - link "Conteúdo" [ref=e15] [cursor=pointer]:
+              - /url: "#"
+            - link "Contato" [ref=e17] [cursor=pointer]:
+              - /url: "#"
+          - link "Quero Economizar" [ref=e20] [cursor=pointer]:
+            - /url: /produtos
+    - main [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - generic [ref=e30]:
+              - heading "Migre sua empresa para o Mercado Livre e economize na conta de energia" [level=1] [ref=e31]
+              - paragraph [ref=e32]: Solução para empresas com contas acima de R$10 mil. Nossa atuação vai além da migração para o Mercado Livre de Energia. Ajudamos empresas na tomada de decisões e na gestão eficiente de energia.
+              - link "Saiba Mais" [ref=e35] [cursor=pointer]:
+                - /url: /produtos/mercado-livre-de-energia
+            - generic [ref=e41]:
+              - heading "Faça sua adesão sem custos e economize até 26% na energia" [level=1] [ref=e42]
+              - paragraph [ref=e43]: Por meio do consórcio BC Energia, consumidores com contas de energia a partir de R$250,00 economizam na conta de energia sem precisar fazer investimentos em placas solares.
+              - link "ADESÃO GRATUITA" [ref=e46] [cursor=pointer]:
+                - /url: http://www.appenergia.com.br/Grupo_BC_Energia
+            - generic [ref=e52]:
+              - heading "Mais de R$ 400 milhões de economia aos nossos clientes" [level=1] [ref=e53]
+              - paragraph [ref=e54]: Soluções sustentáveis e inteligentes que reduzem os custos com energia e aumentam a competitividade de mercado.
+              - link "Saiba Mais" [ref=e57] [cursor=pointer]:
+                - /url: /sobre/quem-somos
+          - generic [ref=e59] [cursor=pointer]: prev
+          - generic [ref=e60] [cursor=pointer]: next
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - heading "Produtos" [level=2] [ref=e69]
+            - heading "Conheça aqui algumas das soluções que oferecemos para redução na conta de energia" [level=3] [ref=e70]
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - img "Icone" [ref=e74]
+              - generic [ref=e75]:
+                - heading "Mercado Livre de Energia" [level=4] [ref=e76]
+                - paragraph [ref=e77]: Para empresas com contas a partir de R$ 10 mil. Solução sem investimento para consumidores conectados em alta tensão e demanda contratada a partir de 30kW negociarem livremente a própria energia.
+                - link "Saiba mais" [ref=e79] [cursor=pointer]:
+                  - /url: /produtos/mercado-livre-de-energia
+            - generic [ref=e80]:
+              - img "Icone" [ref=e82]
+              - generic [ref=e83]:
+                - heading "Consórcio BC Energia" [level=4] [ref=e84]
+                - paragraph [ref=e85]: Para contas a partir de R$ 300,00. Solução sem investimento para consumidores conectados em baixa tensão terem acesso a energia solar sem a necessidade de construir usina.
+                - link "Saiba mais" [ref=e87] [cursor=pointer]:
+                  - /url: /produtos/consorcio-bc-energia
+            - generic [ref=e88]:
+              - img "Icone" [ref=e90]
+              - generic [ref=e91]:
+                - heading "Gestão de Energia" [level=4] [ref=e92]
+                - paragraph [ref=e93]: Performance no Mercado Livre. Fundamental para reduzir os custos com energia elétrica, trazendo sustentabilidade, eficiência e aumento de competitividade para o negócio.
+                - link "Saiba mais" [ref=e95] [cursor=pointer]:
+                  - /url: /produtos/gestao-de-energia
+            - generic [ref=e96]:
+              - img "Icone" [ref=e98]
+              - generic [ref=e99]:
+                - heading "Certificação Renovável - IREC" [level=4] [ref=e100]
+                - paragraph [ref=e101]: Comprovação de consumo renovável. Certificação internacional que permite a rastreabilidade do consumo através das fontes renováveis, como solar, eólica, hídrica e biomassa.
+                - link "Saiba mais" [ref=e103] [cursor=pointer]:
+                  - /url: /produtos/irec
+            - generic [ref=e104]:
+              - img "Icone" [ref=e106]
+              - generic [ref=e107]:
+                - heading "Arrendamento de Usinas" [level=4] [ref=e108]
+                - paragraph [ref=e109]: Parceria que entrega resultado. Oportunidade para donos de usinas arrendarem seus ativos e, assim, não se preocuparem com conversão e gestão de clientes.
+                - link "Saiba mais" [ref=e111] [cursor=pointer]:
+                  - /url: /produtos/arrendamento-de-usinas
+            - generic [ref=e112]:
+              - img "Icone" [ref=e114]
+              - generic [ref=e115]:
+                - heading "Gestão e Consultoria Jurídica" [level=4] [ref=e116]
+                - paragraph [ref=e117]: Expertise em Direito Energético e Empresarial. Atuação multidisciplinar para oferecer uma atuação mais estratégica alinhada com os seus objetivos empresariais de forma contenciosa e consultiva.
+                - link "Saiba mais" [ref=e119] [cursor=pointer]:
+                  - /url: https://www.bced.com.br/
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - img "Grupo BC Energia" [ref=e124]
+            - heading "Somos a maior comercializadora de energia do Centro-Oeste e uma das principais independentes do país." [level=3] [ref=e126]
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - heading "+ de 5 mil" [level=5] [ref=e130]
+              - paragraph [ref=e131]: clientes recebendo nossas soluções em economia
+            - generic [ref=e132]:
+              - heading "+ de R$400M" [level=5] [ref=e133]
+              - paragraph [ref=e134]: de economia gerada aos nossos clientes
+            - generic [ref=e135]:
+              - heading "+ de 15 mil" [level=5] [ref=e136]
+              - paragraph [ref=e137]: toneladas de CO2 evitados na atmosfera
+          - link "Quero Economizar" [ref=e139] [cursor=pointer]:
+            - /url: /produtos
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - heading "Depoimentos" [level=2] [ref=e144]
+            - heading "Veja o que nossos clientes dizem sobre nós" [level=3] [ref=e145]
+          - generic [ref=e147]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - img "Cliente" [ref=e151]
+                - generic [ref=e152]:
+                  - heading "Jhonatan Pinheiro" [level=5] [ref=e153]
+                  - text: Supervisor de ESG da Novo Mundo
+              - paragraph [ref=e154]: Deixamos de gastar com uma energia, que talvez não viesse de uma fonte renovável, convertemos para a energia solar e reduzimos os nossos custos operacionais. Dessa forma conseguimos fazer investimento em outras áreas da empresa e contribuir para que a empresa continue a evoluir e a se desenvolver cada vez mais
+              - img "Icone" [ref=e155]
+            - generic [ref=e157]:
+              - generic [ref=e158]:
+                - img "Cliente" [ref=e159]
+                - generic [ref=e160]:
+                  - heading "Taissa Machado" [level=5] [ref=e161]
+                  - text: Gestora de Meio Ambiente da Triunfo Concebra
+              - paragraph [ref=e162]: Um dos pilares do sistema de gestão da Triunfo Concebra é justamente a conservação ambiental. E a premiação que recebemos traz a importância para o nosso sistema de gestão ambiental e o uso da energia renovável. E a parceria com a BC Energia trouxe o alcance desses pilares de conservação ambiental, controle e redução dos impactos ambientais.
+              - img "Icone" [ref=e163]
+            - generic [ref=e165]:
+              - generic [ref=e166]:
+                - img "Cliente" [ref=e167]
+                - generic [ref=e168]:
+                  - heading "Heder Dias" [level=5] [ref=e169]
+                  - text: Supervisor do Grupo Cereal
+              - paragraph [ref=e170]: A nossa parceria destaca a relevância da economia proporcionada pelo Grupo BC, que oferece soluções energéticas sustentáveis e eficientes. Juntos, reforçamos o compromisso em contribuir para um futuro mais sustentável e responsável. Queremos demonstrar o compromisso das empresas com a sustentabilidade
+              - img "Icone" [ref=e171]
+        - generic [ref=e173]:
+          - generic [ref=e174]: PARCERIA E CONFIANÇA
+          - heading "Nossos Clientes" [level=3] [ref=e176]
+          - generic [ref=e179]:
+            - img "bandnewsfmgoiania" [ref=e181]
+            - img "coco-bambu-restaurante" [ref=e183]
+            - img "coming" [ref=e185]
+            - img "curtidoratocantins" [ref=e187]
+            - img "drogariasantamarta" [ref=e189]
+            - img "flamboyant" [ref=e191]
+            - img "fujioka" [ref=e193]
+            - img "grupo-jorlan" [ref=e195]
+            - img "grupo-natureza-o-boticario" [ref=e197]
+            - img "grupocereal" [ref=e199]
+            - img "igreja-luz" [ref=e201]
+            - img "lifebox" [ref=e203]
+            - img "limagrain-vector-logo" [ref=e205]
+            - img "luidoices" [ref=e207]
+            - img "mega-moda-park" [ref=e209]
+            - img "novomundo" [ref=e211]
+            - img "piquiras" [ref=e213]
+            - img "richesse" [ref=e215]
+            - img "teashop" [ref=e217]
+            - img "teuto" [ref=e219]
+            - img "triunfoconcebra" [ref=e221]
+        - generic [ref=e225]:
+          - generic [ref=e226]:
+            - heading "BC Cast" [level=2] [ref=e227]
+            - heading "Insights valiosos sobre energia e muito mais em nosso Podcast" [level=3] [ref=e228]
+          - generic [ref=e229]:
+            - iframe [ref=e230]:
+              - generic [active] [ref=f4e1]:
+                - generic "Player de vídeo do YouTube" [ref=f4e3]
+                - generic [ref=f4e5]:
+                  - generic:
+                    - generic:
+                      - button "Assistir vídeo" [ref=f4e10] [cursor=pointer]
+                      - button "Ocultar controles do player" [ref=f4e12] [cursor=pointer]
+                      - generic [ref=f4e14]:
+                        - generic [ref=f4e19]:
+                          - generic [ref=f4e20]:
+                            - link "#01 BC Cast | Tiago Mendonça - Ex-Secretário de Agricultura, Pecuária e Abastecimento de Goiás" [ref=f4e21] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=vVnokGbhNPk
+                            - link "Grupo BC Energia" [ref=f4e22] [cursor=pointer]:
+                              - /url: /channel/UCFYokqpMOtd10WUmEP5D8jg
+                              - generic [ref=f4e23]: Grupo BC Energia
+                          - generic [ref=f4e24]:
+                            - button [ref=f4e25] [cursor=pointer]
+                            - generic [ref=f4e27]:
+                              - generic: Grupo BC Energia
+                              - generic: 305 inscritos
+                        - generic [ref=f4e28]:
+                          - button "Compartilhar" [ref=f4e31] [cursor=pointer]:
+                            - generic [ref=f4e35]:
+                              - img
+                          - link "Assistir no YouTube" [ref=f4e42] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=vVnokGbhNPk
+                            - generic [ref=f4e45]:
+                              - text: Assista no
+                              - img [ref=f4e47]:
+                                - generic [ref=f4e49]:
+                                  - img
+            - iframe [ref=e231]:
+              - generic [active] [ref=f5e1]:
+                - generic "Player de vídeo do YouTube" [ref=f5e3]
+                - generic [ref=f5e5]:
+                  - generic:
+                    - generic:
+                      - button "Assistir vídeo" [ref=f5e10] [cursor=pointer]:
+                        - generic [ref=f5e13]:
+                          - img
+                      - button "Ocultar controles do player" [ref=f5e14] [cursor=pointer]
+                      - generic [ref=f5e16]:
+                        - generic [ref=f5e21]:
+                          - generic [ref=f5e22]:
+                            - link "#02 BC Cast | Rubens Fileti - Presidente da ACIEG" [ref=f5e23] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=RrcOwWEAoDY
+                            - link "Grupo BC Energia" [ref=f5e24] [cursor=pointer]:
+                              - /url: /channel/UCFYokqpMOtd10WUmEP5D8jg
+                              - generic [ref=f5e25]: Grupo BC Energia
+                          - generic [ref=f5e26]:
+                            - button [ref=f5e27] [cursor=pointer]
+                            - generic [ref=f5e29]:
+                              - generic: Grupo BC Energia
+                              - generic: 305 inscritos
+                        - generic [ref=f5e30]:
+                          - button "Compartilhar" [ref=f5e33] [cursor=pointer]:
+                            - generic [ref=f5e37]:
+                              - img
+                          - link "Assistir no YouTube" [ref=f5e44] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=RrcOwWEAoDY
+                            - generic [ref=f5e47]:
+                              - text: Assista no
+                              - img [ref=f5e49]:
+                                - generic [ref=f5e51]:
+                                  - img
+          - link "Ver todos episódios →" [ref=e233] [cursor=pointer]:
+            - /url: https://www.youtube.com/@grupobcenergia/videos
+    - contentinfo [ref=e234]:
+      - generic [ref=e236]:
+        - generic [ref=e237]:
+          - img "BC Energia" [ref=e238]
+          - generic [ref=e239]:
+            - generic [ref=e240]:
+              - heading "Endereço em Goiânia:" [level=2] [ref=e241]
+              - paragraph [ref=e242]: Av. Dep. Jamel Cecílio, c/ rua 56, nº 2929, Salas 2802/2803 - Ed. Brookfield Towers Torre B - Jardim Goiás, Goiânia - GO, 74810-240
+            - generic [ref=e243]:
+              - heading "Endereço em São Paulo:" [level=2] [ref=e244]
+              - paragraph [ref=e245]: Av. Pres. Juscelino Kubitschek, 360 - 7º andar cj71 - Edifício JK 360 -Vila Nova Conceição, São Paulo - SP, 04543-000
+        - generic [ref=e246]:
+          - heading "Produtos" [level=5] [ref=e247]
+          - list [ref=e248]:
+            - link "Mercado livre de energia" [ref=e249] [cursor=pointer]:
+              - /url: /produtos/mercado-livre-de-energia
+              - listitem [ref=e250]: Mercado livre de energia
+            - link "Consórcio BC Energia" [ref=e251] [cursor=pointer]:
+              - /url: /produtos/consorcio-bc-energia
+              - listitem [ref=e252]: Consórcio BC Energia
+            - link "Gestão de Energia" [ref=e253] [cursor=pointer]:
+              - /url: /produtos/gestao-de-energia
+              - listitem [ref=e254]: Gestão de Energia
+            - link "Certificação Renovável - IREC" [ref=e255] [cursor=pointer]:
+              - /url: /produtos/irec
+              - listitem [ref=e256]: Certificação Renovável - IREC
+            - link "Arrendamento de usinas" [ref=e257] [cursor=pointer]:
+              - /url: /produtos/arrendamento-de-usinas
+              - listitem [ref=e258]: Arrendamento de usinas
+            - link "Consultoria Jurídica" [ref=e259] [cursor=pointer]:
+              - /url: https://www.bced.com.br/
+              - listitem [ref=e260]: Consultoria Jurídica
+        - generic [ref=e261]:
+          - heading "Segmentos" [level=5] [ref=e262]
+          - list [ref=e263]:
+            - link "Agronegócio" [ref=e264] [cursor=pointer]:
+              - /url: /segmentos/agronegocio
+              - listitem [ref=e265]: Agronegócio
+            - link "Bares e Restaurantes" [ref=e266] [cursor=pointer]:
+              - /url: /segmentos/bares-e-restaurantes
+              - listitem [ref=e267]: Bares e Restaurantes
+            - link "Condomínio" [ref=e268] [cursor=pointer]:
+              - /url: /segmentos/condominio
+              - listitem [ref=e269]: Condomínio
+            - link "Educacional" [ref=e270] [cursor=pointer]:
+              - /url: /segmentos/educacional
+              - listitem [ref=e271]: Educacional
+            - link "Turismo" [ref=e272] [cursor=pointer]:
+              - /url: /segmentos/turismo
+              - listitem [ref=e273]: Turismo
+            - link "Lazer" [ref=e274] [cursor=pointer]:
+              - /url: /segmentos/lazer
+              - listitem [ref=e275]: Lazer
+            - link "Religioso" [ref=e276] [cursor=pointer]:
+              - /url: /segmentos/religioso
+              - listitem [ref=e277]: Religioso
+            - link "Residencial" [ref=e278] [cursor=pointer]:
+              - /url: /segmentos/residencial
+              - listitem [ref=e279]: Residencial
+            - link "Saúde" [ref=e280] [cursor=pointer]:
+              - /url: /segmentos/saude
+              - listitem [ref=e281]: Saúde
+            - link "Serviço" [ref=e282] [cursor=pointer]:
+              - /url: /segmentos/servico
+              - listitem [ref=e283]: Serviço
+            - link "Varejo" [ref=e284] [cursor=pointer]:
+              - /url: /segmentos/varejo
+              - listitem [ref=e285]: Varejo
+        - generic [ref=e286]:
+          - heading "Sobre nós" [level=5] [ref=e287]
+          - list [ref=e288]:
+            - link "Quem Somos" [ref=e289] [cursor=pointer]:
+              - /url: /sobre/quem-somos
+              - listitem [ref=e290]: Quem Somos
+            - link "Nossas Usinas" [ref=e291] [cursor=pointer]:
+              - /url: /sobre/nossas-usinas
+              - listitem [ref=e292]: Nossas Usinas
+            - link "LGPD" [ref=e293] [cursor=pointer]:
+              - /url: /sobre/lgpd
+              - listitem [ref=e294]: LGPD
+            - link "Leilão" [ref=e295] [cursor=pointer]:
+              - /url: /sobre/leilao
+              - listitem [ref=e296]: Leilão
+            - link "Fator de Alavancagem" [ref=e297] [cursor=pointer]:
+              - /url: /sobre/fator-de-alavancagem
+              - listitem [ref=e298]: Fator de Alavancagem
+            - link "Sustentabilidade" [ref=e299] [cursor=pointer]:
+              - /url: /sobre/sustentabilidade
+              - listitem [ref=e300]: Sustentabilidade
+            - link "Social" [ref=e301] [cursor=pointer]:
+              - /url: /sobre/social
+              - listitem [ref=e302]: Social
+            - link "Condições Gerais Varejistas" [ref=e303] [cursor=pointer]:
+              - /url: /sobre/condicoes-gerais-varejistas
+              - listitem [ref=e304]: Condições Gerais Varejistas
+        - generic [ref=e305]:
+          - heading "Conteúdo" [level=5] [ref=e306]
+          - list [ref=e307]:
+            - link "BC Cast" [ref=e308] [cursor=pointer]:
+              - /url: https://www.youtube.com/@grupobcenergia/videos
+              - listitem [ref=e309]: BC Cast
+        - generic [ref=e310]:
+          - heading "Contato" [level=5] [ref=e311]
+          - list [ref=e312]:
+            - link "Entre em contato" [ref=e313] [cursor=pointer]:
+              - /url: /contato
+              - listitem [ref=e314]: Entre em contato
+            - link "Quero ser parceiro" [ref=e315] [cursor=pointer]:
+              - /url: https://wa.me/5562981632741
+              - listitem [ref=e316]: Quero ser parceiro
+            - link "Trabalhe conosco" [ref=e317] [cursor=pointer]:
+              - /url: https://grupobcenergia.vagas.solides.com.br
+              - listitem [ref=e318]: Trabalhe conosco
+            - link "Sou fornecedor/Prestador de Serviços" [ref=e319] [cursor=pointer]:
+              - /url: https://wa.me/5562981590131
+              - listitem [ref=e320]: Sou fornecedor/Prestador de Serviços
+      - generic [ref=e321]:
+        - heading "Siga nossas redes" [level=5] [ref=e322]
+        - list [ref=e323]:
+          - link "Icone" [ref=e324] [cursor=pointer]:
+            - /url: https://www.instagram.com/grupobcenergia/
+            - img "Icone" [ref=e325]
+          - link "Icone" [ref=e326] [cursor=pointer]:
+            - /url: https://www.facebook.com/GrupoBCEnergia
+            - img "Icone" [ref=e327]
+          - link "Icone" [ref=e328] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/grupobcenergia/
+            - img "Icone" [ref=e329]
+          - link "Icone" [ref=e330] [cursor=pointer]:
+            - /url: https://www.youtube.com/@grupobcenergia
+            - img "Icone" [ref=e331]
+    - generic [ref=e333]:
+      - strong [ref=e334]: © GRUPO BC ENERGIA - 2024
+      - text: "| TODOS OS DIREITOS RESERVADOS"
+  - alert [ref=e335]

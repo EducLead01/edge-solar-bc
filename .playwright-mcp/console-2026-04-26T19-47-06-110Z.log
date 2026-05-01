@@ -1,0 +1,10 @@
+[     434ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/054o_next_dist_0t3naps._.js:2431
+[     727ms] [LOG] [Fast Refresh] done in 394ms @ http://localhost:3000/_next/static/chunks/054o_next_dist_0t3naps._.js:2431
+[    1396ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/054o_next_dist_0t3naps._.js:2431
+[    1628ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/054o_next_dist_0t3naps._.js:2431
+[    2891ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/054o_next_dist_0t3naps._.js:2431
+[    2990ms] [LOG] [Fast Refresh] done in 204ms @ http://localhost:3000/_next/static/chunks/054o_next_dist_0t3naps._.js:2431
+[  446479ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/054o_next_dist_0t3naps._.js:2431
+[  447285ms] [LOG] [Fast Refresh] done in 907ms @ http://localhost:3000/_next/static/chunks/054o_next_dist_0t3naps._.js:2431
+[  447723ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/054o_next_dist_0t3naps._.js:2431
+[  447964ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/054o_next_dist_0t3naps._.js:2431
