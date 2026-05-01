@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { ACTypesSection } from "@/components/ACTypesSection";
 import { ChevronLeft, ChevronRight, TrendingUp, Building2, Factory, Tractor } from "lucide-react";
 
 type Product = {
@@ -161,11 +162,17 @@ export function ProductsSection() {
     <>
       <section className="bg-white px-6 pt-10 pb-24 relative">
         <div className="container mx-auto">
-          <h3 className="text-center text-4xl font-bold mb-12 max-w-4xl mx-auto uppercase" style={{ color: "#0A0E1A" }}>
+          <h3 className="text-center text-4xl font-bold mb-0 max-w-4xl mx-auto uppercase" style={{ color: "#0A0E1A" }}>
             Climatização Residencial comercial e industrial
           </h3>
+        </div>
+      </section>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <ACTypesSection />
+
+      <section className="bg-white px-6 pb-24 relative">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pt-10">
             {products.map((product) => (
               <ProductCard key={product.title} product={product} />
             ))}
